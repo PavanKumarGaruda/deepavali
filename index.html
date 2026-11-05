@@ -190,12 +190,11 @@
     .crack-btn:hover { transform: scale(1.05); }
 
     @media (max-width: 680px) {
-      .diyas-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; max-width: 500px; }
-      .diya-card { padding: 18px 8px 16px; gap: 10px; }
-      .diya-card:last-child { grid-column: 1 / -1; width: calc(50% - 6px); justify-self: center; }
-      .diya-badge { font-size: 0.65rem; letter-spacing: 0.8px; padding: 4px 8px; }
-      .diya-frame { width: min(110px, 30vw); height: 100px; }
-      .light-btn { font-size: 0.75rem; padding: 6px 10px; }
+      .diyas-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+      .diya-card { min-width: 0; padding: 12px 4px 10px; gap: 7px; }
+      .diya-badge { font-size: 0.56rem; letter-spacing: 0.3px; padding: 3px 4px; }
+      .diya-frame { width: min(90px, 22vw); height: 82px; }
+      .light-btn { font-size: 0.62rem; padding: 5px 4px; }
       .tracker-card { flex-direction: column; text-align: center; }
     }
   </style>
